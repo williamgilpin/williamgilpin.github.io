@@ -61,7 +61,9 @@ footer {
   bottom: 0;
   margin-top: 3em;
   width: 100%;
-  border-top: 7px solid LightGray;
+  border-top: 5px solid LightGray;
+  border-top-style: dashed;
+  
   padding-bottom: 1em;
 }
 #footer .links {
