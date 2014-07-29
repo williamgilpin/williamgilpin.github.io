@@ -17,9 +17,11 @@ a:hover{
 }
 
 div#diagram{
-    float: right;
+    float: left;
+    margin-left: 40%;
 
 }
+
 
 div#leftbar {
 	left:5%;
@@ -29,8 +31,10 @@ div#leftbar {
   top:0px;
   min-height:80%;
   margin-left:auto; margin-right:0;
+  overflow: hidden;
 
 }
+
 
 div#page{
   width:100%;
@@ -48,6 +52,8 @@ footer {
 
 #footer {
   clear: both;
+  position: fixed;
+  bottom: 0;
   margin-top: 3em;
   border-top: 7px solid LightGray;
   padding-bottom: 1em;
