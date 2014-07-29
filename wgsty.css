@@ -19,7 +19,12 @@ a:hover{
 div#diagram{
     float: left;
     margin-left: 40%;
+}
 
+div#diagram p{
+    color: LightGray;
+    font-size: .8em;
+    text-align: center
 }
 
 
@@ -55,6 +60,7 @@ footer {
   position: fixed;
   bottom: 0;
   margin-top: 3em;
+  width: 100%;
   border-top: 7px solid LightGray;
   padding-bottom: 1em;
 }
