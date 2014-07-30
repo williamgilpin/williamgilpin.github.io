@@ -2,7 +2,6 @@ body {
  font-family:  "Open Sans","verdana", "arial", sans-serif;
  text-align: center;
  font-size: 4vw;
-
 }
 
 a {
@@ -19,33 +18,38 @@ a:hover{
 }
 
 div#diagram{
-    clear:center;
+    display: block;
+    clear: both;
     float:center;
-    margin-left:30%;
-    width:100%;
-    top:0px;
-    min-height:80%;
-    margin-left:auto; margin-right:0;
-    overflow: hidden;
+    margin-left: auto ;
+    margin-right: auto ;
+    width:50%;
+    padding:1em;
+    /*margin-left:auto;*/
+  
+    /* margin-right:0;*/
     /*margin-left: 5%;*/
 }
 
 div#diagram p{
     color: LightGray;
-    font-size: .8em;
+    font-size: .5em;
     text-align: center;
 }
 
 
 div#leftbar {
-    /* position:fixed; */
-    float:center;
+    display: block;
+    clear: both;
+    float:left;
+    position:relative;
     margin-left:30%;
     width:100%;
     top:0px;
     min-height:80%;
     margin-left:auto; margin-right:0;
-    overflow: hidden;
+    /*margin-left: 5%;*/
+    text-align: center;
 }
 
 /*
