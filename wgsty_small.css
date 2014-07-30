@@ -17,8 +17,10 @@ a:hover{
 }
 
 div#diagram{
+    clear:both;
     float: left;
-    margin-left: 40%;
+    margin-left: 5%;
+     overflow: hidden;
 }
 
 div#diagram p{
@@ -29,15 +31,14 @@ div#diagram p{
 
 
 div#leftbar {
-	left:5%;
-	/*margin-left:-475px;*/
-  position:fixed;
-  width:30%;
-  top:0px;
-  min-height:80%;
-  margin-left:auto; margin-right:0;
-  overflow: hidden;
-
+    /* position:fixed; */
+    float:left;
+    margin-left:30%;*/
+    width:100%;
+    top:0px;
+    min-height:80%;
+    margin-left:auto; margin-right:0;
+    overflow: hidden;
 }
 
 
