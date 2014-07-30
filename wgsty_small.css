@@ -1,6 +1,8 @@
 body {
-font-family:  "Open Sans","verdana", "arial", sans-serif;
+ font-family:  "Open Sans","verdana", "arial", sans-serif;
  text-align: center;
+ font-size: 4vw;
+
 }
 
 a {
@@ -17,7 +19,7 @@ a:hover{
 }
 
 div#diagram{
-    clear:both;
+    clear:center;
     float:center;
     margin-left:30%;
     width:100%;
