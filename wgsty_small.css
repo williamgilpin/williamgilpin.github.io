@@ -20,7 +20,6 @@ div#diagram{
     clear:both;
     float: left;
     margin-left: 5%;
-     overflow: hidden;
 }
 
 div#diagram p{
@@ -33,7 +32,7 @@ div#diagram p{
 div#leftbar {
     /* position:fixed; */
     float:left;
-    margin-left:30%;*/
+    margin-left:30%;
     width:100%;
     top:0px;
     min-height:80%;
@@ -41,20 +40,11 @@ div#leftbar {
     overflow: hidden;
 }
 
-
-div#page{
-  width:100%;
-  min-height:100%;
-   position:-10%;
-  overflow:hidden;
-margin-left:auto; margin-right:0;
-}
-
-
-
+/*
 footer {
   display: block;
 }
+*/
 
 #footer {
   clear: both;
@@ -64,11 +54,11 @@ footer {
   margin-top: 3em;
   width: 100%;
   border-top: 5px solid LightGray;
-  border-top-style: dashed;
-  
+  border-top-style: dashed; 
   padding-bottom: 1em;
 }
 #footer .links {
+  clear: both;
   width: 14em;
   float: left;
   margin-left: 1em;
