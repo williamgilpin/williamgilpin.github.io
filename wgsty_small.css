@@ -21,9 +21,8 @@ div#diagram{
     display: block;
     clear: both;
     float:center;
-    margin-left: auto ;
-    margin-right: auto ;
-    top: 1em;
+    margin-left: auto;
+    margin-right: auto;
     width:50%;
     padding:1em;
     /*margin-left:auto;*/
