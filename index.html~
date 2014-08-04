@@ -1,34 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
+
 <title>
 William Gilpin
 </title>
+
+<meta name="keywords" content="william,gilpin,princeton,stanford,physics,biophysics" />
+<meta charset="utf-8">
+<meta name="description" content="Personal website of William Gilpin, containing CV and references to other projects and work" />
+<meta name="author" content="William Gilpin"/>
+<meta name="robots" content="index, follow" />
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
 <!-- use local style sheets -->
-<link rel="stylesheet" type="text/css" href="wgsty.css">
-<!-- web style sheets -->
+<link rel="stylesheet" type="text/css" href="wgsty.css"> 
+
+
+<!-- This has to go after main style sheet -->
+<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 1000px)" href="wgsty_small.css" />
+
+<!-- Google Fonts style sheet -->
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
 </head>
 
 <body>
+
+
+
+<div id="leftbar">
 <h1>William Gilpin</h1>
-<b>firstinitiallastname@stanford.edu</b>
 <p>PhD Candidate at Stanford University</p>
 <p>AB Physics, Princeton University, 2014</p>
-<li><a href="CV/wgilpin_CV2014.pdf">curriculum vitae</a></li>
-<li><a href="https://www.flickr.com/photos/wgilpin">pictures</li>
+<br>
+<li><a href="CV/wgilpin_CV2014.pdf">Curriculum Vitae</a></li>
+<br>
+<li><a
+href="https://www.flickr.com/photos/wgilpin/sets/72157632713948068">Photographs</a></li>
+<li><a
+href="https://gammacephei.wordpress.com">Blog</a></li>
+</div>
 
+
+<div id="diagram">
+  <!-- width attribute says to fill the div width with hte object -->
+    <object width="100%" type="image/svg+xml" data="cube.svg">Your browser does not
+    support SVG</object>
+   <p> A conditionally Markovian network for <br> simulation of simple chemotaxis. </p>
+</div>
+
+<!--
 <img srcset="small.gif 1x,
       large.gif 2x"
      width="100%"
      src="small.jpg"
      alt="landscape photo" />
+-->
 
 
 
 </body>
 
-<!-- inline javascript for Google Analytics tracking -->
+<footer id="footer">
+
+<section class="links">
+	<h2>Contact</h2>
+	<ul class="links-list">
+
+
+		<li>
+			<a href="mailto:wgilpin@[university_in_palo_alto].edu">Email</a>
+		</li>
+		<li>
+			<a href="https://github.com/williamgilpin">GitHub</a>
+		</li>
+		<li>
+			<a href="https://www.linkedin.com/in/williamgilpin">LinkedIn</a>
+		</li>
+
+	</ul>
+</section>
+
+<section class="links">
+	<h2>Interests</h2>
+	<ul class="links-list">
+
+		<li>
+			<a href="/placeholder/for/a/page">Biophysics</a>
+		</li>
+		<li>
+			<a href="/placeholder/for/a/page">Photonics</a>
+		</li>
+		<li>
+			<a href="/placeholder/for/a/page">Soft Matter Physics</a>
+		</li>
+		<li>
+			<a href="/placeholder/for/a/page">Data Mining</a>
+		</li>
+	</ul>
+</section>
+
+
+<section class="links">
+	<h2>Other</h2>
+	<ul class="links-list">
+		<li>
+			<a href="/placeholder/for/a/page">Graphic Design</a>
+		</li>
+		<li>
+			<a href="https://www.flickr.com/photos/wgilpin/sets/72157632713948068">Photography</a>
+		</li>
+		<li>
+			<a href="/placeholder/for/a/page">Physics Education</a>
+		</li>
+		<li>
+			<a href="/placeholder/for/a/page">Fossil Collecting</a>
+		</li>
+	</ul>
+</section>
+
+<section class="legal">
+	<small>
+	&copy; 2013 - 2014 by
+	<a href="a
+	href="mailto:wgilpin@[university_in_palo_alto].edu"">William Gilpin</a>
+	</small>
+</section>
+	
+</footer>
+
+<!-- inline j script for Google Analytics tracking -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,7 +141,6 @@ William Gilpin
   ga('send', 'pageview');
 
 </script>
-
 
 
 
