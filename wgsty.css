@@ -39,7 +39,7 @@ div#diagram p{
 div#leftbar {
 	left:20%;
   position:fixed;
-  width:50%;
+  width:40%;
   top:0px;
   min-height:80%;
   overflow: hidden;

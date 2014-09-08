@@ -28,7 +28,7 @@ div#diagram{
     /*margin-left:auto;*/
     /* margin-right:0;*/
     /*margin-left: 5%;*/
-    
+
     /* hide diagram element for small screens */
     visibility: hidden;
 }
@@ -37,20 +37,21 @@ div#diagram p{
     color: LightGray;
     font-size: .5em;
     text-align: center;
+    /* hide diagram element for small screens */
+    visibility: hidden;
 }
 
 
 div#leftbar {
     display: block;
     clear: both;
-    float:left;
+    float:center;
     position:relative;
-    margin-left:30%;
+    /*margin-left:10%;*/
     width:100%;
     top:0px;
     min-height:80%;
-    margin-left:auto; margin-right:0;
-    /*margin-left: 5%;*/
+    /*margin-left:auto; margin-right:0;*/
     text-align: center;
 }
 
