@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<!--
- commands to push to server
-$ git add --all
-$ git commit -m "sample commit message"
-$ git push
--->
+
 <head>
 
 <title>
@@ -17,7 +12,7 @@ William Gilpin
 <meta name="description" content="Personal website of William Gilpin, containing CV and links to other projects and work" />
 <meta name="author" content="William Gilpin"/>
 <meta name="robots" content="index, follow" />
-
+<meta property="og:image" content="images/favicon.jpg"/>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 <!-- use local style sheets -->
@@ -34,41 +29,60 @@ William Gilpin
 <body>
 
 
-
 <div id="leftbar">
 <h1>William Gilpin</h1>
-<p>PhD Candidate at Stanford University</p>
-<p>AB Physics, Princeton University, 2014</p>
+<p>PhD Student and NSF Fellow,<br> Stanford University</p>
+<p>AB Physics 2014,<br> Princeton University</p>
+<!-- <h3><a href="mailto:wgilpin@[university].edu"> Email </a></h3> -->
 <br>
+
+<h3> Work: </h3>
 <li><a href="CV/wgilpin_CV2014.pdf">Curriculum Vitae</a></li>
-<br>
+
+<h3> Contact: </h3>
+<li>
+<a href="mailto:wgilpin@[university_in_palo_alto].edu">Email</a>
+</li>
+<li>
+	<a href="https://github.com/williamgilpin">GitHub</a>
+</li>
+<li>
+	<a href="https://www.linkedin.com/in/williamgilpin">LinkedIn</a>
+</li>
+
+<h3> Personal: </h3>
 <li><a
 href="https://www.flickr.com/photos/wgilpin/sets/72157632713948068">Photographs</a></li>
 <li><a
-href="https://gammacephei.wordpress.com">Blog</a></li>
+href="http://wgilpindesign.tumblr.com/">Graphic Design</a></li>
+<li><a
+href="https://gammacephei.wordpress.com">Hobby Blog</a></li>
+<li><a
+href="http://alphapersei.tumblr.com/">Fossil Collection</a></li>
+<li><a
+href="https://sites.google.com/site/hermionedealmeida/">Mother's research</a></li>
+<li><a
+href="https://sites.google.com/site/georgehgilpin/">Father's research</a></li>
+
+
 </div>
+
 
 
 <div id="diagram">
-  <!-- width attribute says to fill the div width with hte object -->
+  <!-- width attribute says to fill the div width with the object -->
     <object width="100%" type="image/svg+xml" data="cube.svg">Your browser does not
     support SVG</object>
-   <p> A conditionally Markovian network for <br> simulation of simple chemotaxis. </p>
+   <p> A conditional Markov network topology <br> that can simulate chemotaxis.<br> <i> with David Schwab and Curt Callan</i> </p>
 </div>
 
-<!--
-<img srcset="small.gif 1x,
-      large.gif 2x"
-     width="100%"
-     src="small.jpg"
-     alt="landscape photo" />
--->
+
 
 
 
 </body>
 
-<footer id="footer">
+<!-- <footer id="footer">
 
 <section class="links">
 	<h2>Contact</h2>
@@ -89,39 +103,39 @@ href="https://gammacephei.wordpress.com">Blog</a></li>
 </section>
 
 <section class="links">
-	<h2>Interests</h2>
+	<h2>Research Interests</h2>
 	<ul class="links-list">
 
 		<li>
-			<a href="/placeholder/for/a/page">Biophysics</a>
+			Biophysics</a>
 		</li>
 		<li>
-			<a href="/placeholder/for/a/page">Photonics</a>
+			Complex Fluid Physics
 		</li>
 		<li>
-			<a href="/placeholder/for/a/page">Soft Matter Physics</a>
+			Photonics</a>
 		</li>
 		<li>
-			<a href="/placeholder/for/a/page">Data Mining</a>
+			Data Mining
 		</li>
 	</ul>
 </section>
 
 
 <section class="links">
-	<h2>Other</h2>
+	<h2>Other Interests</h2>
 	<ul class="links-list">
 		<li>
-			<a href="/placeholder/for/a/page">Graphic Design</a>
+			Graphic Design
 		</li>
 		<li>
 			<a href="https://www.flickr.com/photos/wgilpin/sets/72157632713948068">Photography</a>
 		</li>
 		<li>
-			<a href="/placeholder/for/a/page">Physics Education</a>
+			Physics Education		
 		</li>
 		<li>
-			<a href="/placeholder/for/a/page">Fossil Collecting</a>
+			Fossil Collecting
 		</li>
 	</ul>
 </section>
@@ -135,7 +149,7 @@ href="https://gammacephei.wordpress.com">Blog</a></li>
 </section>
 	
 </footer>
-
+ -->
 <!-- inline j script for Google Analytics tracking -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
