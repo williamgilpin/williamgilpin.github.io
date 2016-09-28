@@ -1,0 +1,45 @@
+The first Friday no one resigns because each of them thinks that they are perfect. The second week, all of them resign. 
+
+After the first week, each professor knows that no one resigned. Professor 1 can now infer that Professors 2-9 have all detected mistakes in the work of at least one colleague. Professors 1 also knows about at least one mistake in the work of each of Professors 2-9, and she also knows that each one of them individually (we’ll use Professor 2 as an example) knows about either: 
+
+8 other mistakes (if Professor 1 truly is perfect).
+
+—OR—
+
+9 other mistakes (if Professor 1 made a mistake).
+
+
+If the first case is true, Professor 1 can now imagine infer Professor 2’s thought process: She would not know about her own mistake, and so after seeing no one resign the first Friday she would expect Professor 3 to know about either
+
+7 other mistakes (if Professor 1 is perfect AND Professor 2 is perfect).
+
+—OR—
+
+8 other mistakes (if Professor 1 is perfect AND Professor 2 made a mistake).
+
+If the second case is true, Professor 1 can now imagine Professor 2’s thought process: She would not know about her own mistake, and so after seeing no one resign the first Friday she would expect Professor 3 to know about either
+
+8 other mistakes (if Professor 1 made a mistake AND if Professor 2 is perfect).
+
+—OR—
+
+9 other mistakes (if Professor 1 made a mistake AND if Professor 2 made a mistake).
+
+
+We can keep imagining Professor 1’s imagination of Professor 2’s imagination of Professor X’s thought process as we go down the line of Professors, which results in a tree structure (of depth 10) representing the number of mistakes that the Professor at that level knows about. We can summarize the tree using a function defined on the $N$ bit binary series representing whether the professor at level $i$ is perfect (1) or made a mistake (0). The value of the function for each N-bit series is the number of errors seen by the $N+1^{th}$ professor
+
+one-level tree
+1 -> 8
+0 -> 9
+
+two-level tree
+11 —> 7
+10 —> 8
+01 —> 8
+00 —> 9
+
+
+If we continue this tree series out until we get to level 9, we find that the only case in which the tenth professor will see more than zero mistakes is the case 000000000. Because the tenth professor did not resign, we know that she saw at least one mistake, making this the true case. This means that Professor 1 must have made an error, as well as every other professor.
+
+The next Friday they will all resign.
+
