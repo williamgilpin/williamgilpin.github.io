@@ -11,18 +11,25 @@ The probability decreases with N according to a binomial distribution, which can
 #### Full Solution
 
 Because each other citizen's vote is essentially a coin toss (a Bernoulli random variable), the probability of recieving k heads in N fair coin tosses is given by the binomial distribution
+
 <img src="latex-image-1.png" alt="eq1" width="300 px">
+
 where N is the number of coin tosses, k is the number of heads, and $p$ is the probability of recieving heads (p=0.5 for a fair coin).
 
 We assume that, for the Senate election, if there is an even number of voters total (N-1 is an odd number), then the election is decided by yet anohter coin toss. This is equivalent to adding an extra uninformed voter to the pool of citizenry, resulting in an odd overall number of voters including you.
 
 In this case, the probability that you are the deciding vote is equivalent to finding the probability that the pool of N voters is evenly split between the two candidates. This is equivalent to flipping a coin N times and recieving N/2 heads. Plugging into the binomial theorem,
+
 <img src="latex-image-2.png" alt="eq2" width="300 px">
 
 For sufficiently large populations we can approximate the factorial functions using Stirling's approximation,
+
 <img src="latex-image-3.png" alt="eq3" width="300 px">
+
 Plugging this in for N and N/2 yeilds a simple expression for the probability of deciding as a function of $N$
+
 <img src="latex-image-4.png" alt="eq4" width="300 px">
+
 This distribution predicts that, as the size of the total population doubles, the probability that your vote decides the election will decrease by a factor of about sqrt(2) = 1.414
 
 Finally, here is the probability of your vote deciding the election, plotted as function of the population size using logarithmic axes
