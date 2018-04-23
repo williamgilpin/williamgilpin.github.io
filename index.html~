@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-us">
+<html>
+  <head>
+    <meta name="keywords" content="william,gilpin,princeton,stanford,physics,biophysics,science" />
+    <meta name="description" content="Personal website of William Gilpin, containing CV and links to other projects and work" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="author" content="William Gilpin"/>
+    <meta name="robots" content="index, follow" />
+    <meta property="og:image" content="images/favicon.jpg"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>William Gilpin</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts style sheet -->
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    blank text
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+      	<h1>William Gilpin</h1>
+      	<p></p>
+		<p>PhD Candidate and NSF + NDSEG Fellow, Stanford</p>
+		<p>National Geographic Young Explorer</p>
+		<p>AB in Physics, Princeton, 2014</p>
+		<p></p>
+		<br>
+        <img src="images/bismuth_oxide_small.jpg">
+      </header>
+      <section>
+
+<h3> Work: </h3>
+<li><a href="CV/wgilpin_CV2014.pdf">Curriculum Vitae</a></li>
+<p></p>
+
+<h3> Contact: </h3>
+<li>
+<a href="mailto:wgilpin@[university_in_palo_alto].edu">Email</a>
+</li>
+<li>
+	<a href="https://github.com/williamgilpin">GitHub</a>
+</li>
+<li>
+	<a href="https://www.linkedin.com/in/williamgilpin">LinkedIn</a>
+</li>
+<li>
+<a href="https://twitter.com/wgilpin0">Twitter</a>
+</li>
+<p></p>
+
+<h3> Personal: </h3>
+<li><a
+href="https://www.flickr.com/photos/wgilpin/sets/72157632713948068">Photographs</a></li>
+<li><a
+href="http://alphapersei.tumblr.com/">Fossils</a></li>
+<!-- <li><a
+href="http://paquignon.tumblr.com/">Graphic Design</a></li> -->
+<li><a
+href="https://sites.google.com/site/hermionedealmeida/">Hermione de Almeida</a></li>
+<li><a
+href="https://sites.google.com/site/georgehgilpin/critical-essays-on-william-wordsworth">George H. Gilpin</a></li>
+<li><a
+href="https://gammacephei.wordpress.com">Blog</a></li>
+
+
+
+</body>
+
+
+<!-- inline j script for Google Analytics tracking -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52823035-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
