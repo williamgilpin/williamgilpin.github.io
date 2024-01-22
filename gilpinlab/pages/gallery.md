@@ -112,13 +112,12 @@
 
 <sub> Embedding an EEG dataset using techniques for reconstructing the attractors of dynamical systems. See recent [paper](https://arxiv.org/abs/2002.05909) and its accompanying [code](https://github.com/williamgilpin/fnn)</sub>
 
-<!-- 1600 x 1067 -->
-<img src="../assets/gallery/shenzhen2.jpeg" width="400" height="267" class="center"/>
-<img src="../assets/gallery/shenzhen4.jpeg" width="400" height="267" class="center"/>
-<!-- <img src="../assets/gallery/hangzhou1.jpeg" width="400" height="267" class="center"/> -->
-<br>
-<sub>Two of the videos shown above were included in the 2021--2022 Neal Gallery traveling exhibition in Shenzhen and Hangzhou.</sub>
 
+<!-- <img src="../assets/gallery/shenzhen2.jpeg" width="400" height="267" class="center"/>
+<img src="../assets/gallery/shenzhen4.jpeg" width="400" height="267" class="center"/> -->
+<!-- <img src="../assets/gallery/hangzhou1.jpeg" width="400" height="267" class="center"/> -->
+<!-- <br>
+<sub>Two videos shown above were included in the 2022 Neal Gallery traveling exhibition in Shenzhen and Hangzhou.</sub> -->
 
 <!-- ![A feeding tornaria larvafeeding](../assets/gallery/tornaria.jpg) -->
 <img src="../assets/gallery/tornaria.jpg" width="400" height="400" class="center"/>
@@ -134,7 +133,6 @@
 
 <sub>Trajectories of the FitzHugh-Nagumo neuron model in a limit cycle regime. Dynamical noise is included, and purple dashes indicate the nullcline of a slow variable.</sub>
 
-
 <iframe src="https://player.vimeo.com/video/263223043?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 <sub>Particles advected by the blinking vortex map. This controllable chaotic fluid flow was used in our paper on cryptography with hydrodynamics [here](https://www.pnas.org/content/115/19/4869)</sub>
@@ -142,7 +140,6 @@
 <iframe src="https://player.vimeo.com/video/641409391?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 <sub>Thomas' cyclic chaotic attractor. This system is included in our recent [paper](https://arxiv.org/abs/2110.05266) presenting a [database](https://github.com/williamgilpin/dysts) of strange attractors for benchmarking time series forecasting models</sub>
-
 
 <iframe src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
