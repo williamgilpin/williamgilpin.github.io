@@ -88,6 +88,10 @@
 
 <sub>The Hadley model for atmospheric convection. This system is included in our recent [paper](https://arxiv.org/abs/2110.05266) presenting a [database](https://github.com/williamgilpin/dysts) of strange attractors for benchmarking time series forecasting models</sub>
 
+<iframe src="https://player.vimeo.com/video/858349296?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+
+<sub>Formation of a vortex condensate in two-dimensional turbulence.</sub>
+
 <iframe src="https://player.vimeo.com/video/641413199?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 <sub>Six stages of training a convolutional neural network on Conway's Game of Life cellular automaton. See recent [paper](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.032402) and its accompanying [code](https://github.com/williamgilpin/convoca)</sub>
@@ -100,6 +104,9 @@
 
 <sub>Training four different forecasting models on the chaotic attractor of the Lorenz system. From the benchmarks of our recent [paper](https://arxiv.org/abs/2110.05266) and [database](https://github.com/williamgilpin/dysts) for benchmarking time series forecasting models on chaotic attractors.</sub>
 
+<iframe src="https://player.vimeo.com/video/905350343?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+
+<sub>Sampling a double Gaussian potential with a Markov Chain Monte Carlo procedure, and a time series from a deterministic chaotic system</sub>
 
 <iframe src="https://player.vimeo.com/video/641414845?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
@@ -135,6 +142,12 @@
 <iframe src="https://player.vimeo.com/video/641409391?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 <sub>Thomas' cyclic chaotic attractor. This system is included in our recent [paper](https://arxiv.org/abs/2110.05266) presenting a [database](https://github.com/williamgilpin/dysts) of strange attractors for benchmarking time series forecasting models</sub>
+
+
+<iframe src="https://player.vimeo.com/video/739921904?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+
+<sub>Avalanches in a sandpile model. A vortex-laden wake behind a cylinder. Turing pattern formation in a reaction-diffusion system.</sub>
+
 
 
 <!-- <iframe src="https://player.vimeo.com/video/641414619" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
