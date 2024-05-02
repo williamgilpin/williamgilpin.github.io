@@ -6,13 +6,13 @@
 <!-- We are interested in computational nonlinear dynamics, broadly applied.  -->
 Our curiosity-driven research group bridges fluid dynamics, statistical learning, and systems biology. We develop new theory and algorithms for analysis and control of chaotic systems---like turbulent puffs, or neural spikes---and collaborate to apply these tools broadly. One part of the lab develops novel machine learning algorithms for time series, drawing upon the classical physics of complex systems like strange attractors, cellular automata, and random graphs. The second part of the group applies these principles to real-world complex systems such as biological measurements and fluid mixing.
 
-Check out our [gallery](pages/gallery.html)
-
-
-<img src="./assets/lab.jpg" width="70%" class="center"/>
-<br><br>
+**Check out our [gallery](pages/gallery.html)**
 
 # Members
+
+<br>
+<img src="./assets/lab.jpg" width="100%" class="center"/>
+
 <br>
 William Gilpin, Assistant Professor of Physics\
 Department of Physics & Oden Institute for Computational Engineering and Sciences\
@@ -40,11 +40,6 @@ Yasa Baig. Harvard QBio REU while undergrad at Duke. _Next position:_ Marshall S
 **Graduate Students.** If you have not yet applied, please apply to the Department of Physics or the Oden CSEM program. Other departments are definitely possible, too. If you are already at UT, please email William.
 
 
-
-<!-- # Publications
-
-_Coming soon once the template is fixed. For now, see William's [CV](http://www.wgilpin.com/CV/wgilpin_CV.pdf)_
- -->
 
 <img src="./assets/banner2.jpg" width="100%" class="center"/>
 
