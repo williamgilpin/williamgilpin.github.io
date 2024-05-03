@@ -1,12 +1,25 @@
 <!-- # The Gilpin Research Group -->
 <!-- # Research -->
+
+<style>
+    .container {
+        display: flex; /* Establishes a flex container */
+        justify-content: center; /* Centers items on the line (horizontally) */
+    }
+    .center {
+        width: 33%; /* Each image takes up one-third of the container width */
+        object-fit: cover; /* Ensures images cover the area without distorting */
+    }
+</style>
+
 <img src="./assets/banner.png" width="100%" class="center"/>
 <br><br>
+
 
 <!-- We are interested in computational nonlinear dynamics, broadly applied.  -->
 Our curiosity-driven research group bridges fluid dynamics, statistical learning, and systems biology. We develop new theory and algorithms for analysis and control of chaotic systems---like turbulent puffs, or neural spikes---and collaborate to apply these tools broadly. One part of the lab develops novel machine learning algorithms for time series, drawing upon the classical physics of complex systems like strange attractors, cellular automata, and random graphs. The second part of the group applies these principles to real-world complex systems such as biological measurements and fluid mixing.
 
-**Check out our [gallery](pages/gallery.html)**
+**Check out our [visualization gallery](pages/gallery.html)**
 
 # Members
 
@@ -39,7 +52,9 @@ Yasa Baig. Harvard QBio REU while undergrad at Duke. _Next position:_ Marshall S
 
 **Graduate Students.** If you have not yet applied, please apply to the Department of Physics or the Oden CSEM program. Other departments are definitely possible, too. If you are already at UT, please email William.
 
-
+<img src="./assets/jeff.jpg" width="33%" />
+<img src="./assets/aditi.jpg" width="33%" />
+<img src="./assets/anish.jpg" width="33%" />
 
 <img src="./assets/banner2.jpg" width="100%" class="center"/>
 
