@@ -52,10 +52,11 @@ Yasa Baig. Harvard QBio REU while undergrad at Duke. _Next position:_ Marshall S
 
 **Graduate Students.** If you have not yet applied, please apply to the Department of Physics or the Oden CSEM program. Other departments are definitely possible, too. If you are already at UT, please email William.
 
-<img src="./assets/jeff.jpg" width="33%" />
-<img src="./assets/aditi.jpg" width="33%" />
-<img src="./assets/anish.jpg" width="33%" />
+<img src="./assets/jeff.jpg" width="32%" />
+<img src="./assets/aditi.jpg" width="32%" />
+<img src="./assets/anish.jpg" width="32%" />
 
+<br>
 <img src="./assets/banner2.jpg" width="100%" class="center"/>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
