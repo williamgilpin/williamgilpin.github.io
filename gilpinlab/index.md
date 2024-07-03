@@ -17,7 +17,7 @@
 
 
 <!-- We are interested in computational nonlinear dynamics, broadly applied.  -->
-Our curiosity-driven research group bridges fluid dynamics, statistical learning, and systems biology. We develop new theory and algorithms for analysis and control of chaotic systems---like turbulent puffs, or neural spikes---and collaborate to apply these tools broadly. One part of the lab develops novel machine learning algorithms for time series, drawing upon the classical physics of complex systems like strange attractors, cellular automata, and random graphs. The second part of the group applies these principles to real-world complex systems such as biological measurements and fluid mixing.
+Our curiosity-driven research group bridges fluid dynamics, statistical learning, and systems biology. We develop new theory and algorithms for analysis and control of chaotic systems---like turbulent bursts, or neural spikes---and collaborate to apply these tools broadly. One part of the lab develops novel machine learning algorithms for time series, drawing upon the classical physics of complex systems like strange attractors, cellular automata, and random graphs. The second part of the group applies these principles to real-world complex systems such as biological measurements and fluid mixing.
 
 **Check out our [visualization gallery](pages/gallery.html)**
 
@@ -58,38 +58,6 @@ Yasa Baig. Harvard QBio REU while undergrad at Duke. _Next position:_ Marshall S
 
 <br>
 <img src="./assets/banner2.jpg" width="100%" class="center"/>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QGD65K33F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0QGD65K33F');
-</script> -->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52823035-6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-52823035-6');
-</script> -->
-
-<!-- Note: plugin scripts must be included after the tracking snippet. -->
-<!-- <script src="https://ipmeta.io/plugin.js"></script>
-
-<script>
-   provideGtagPlugin({
-      apiKey: '473e393221c9fe50ba50e78b1d296e1f7184e883c56d57049b0cc8189bbaf33f',
-      serviceProvider: 'dimension1',
-      networkDomain: 'dimension2',
-      networkType: 'dimension3',
-   });
-</script> -->
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FYM3TV6FBC"></script>
