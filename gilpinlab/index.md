@@ -23,8 +23,8 @@ Our curiosity-driven research group bridges fluid dynamics, statistical learning
 
 # Members
 
-<br>
-<img src="./assets/lab.jpg" width="100%" class="center"/>
+<!-- <br>
+<img src="./assets/lab.jpg" width="100%" class="center"/> -->
 
 <br>
 William Gilpin, Assistant Professor of Physics\
