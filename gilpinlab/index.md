@@ -7,7 +7,7 @@
         justify-content: center; /* Centers items on the line (horizontally) */
     }
     .center {
-        width: 33%; /* Each image takes up one-third of the container width */
+        width: 100%; /* Each image takes up one-third of the container width */
         object-fit: cover; /* Ensures images cover the area without distorting */
     }
 </style>
