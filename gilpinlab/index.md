@@ -46,11 +46,11 @@ Anish Pandya. Undergrad in Physics.
 
 Yasa Baig. Harvard QBio REU while undergrad at Duke. _Next position:_ Marshall Scholar at Cambridge.
 
-# Join
+<!-- # Join
 
 **Postdocs.** Please email William directly. Please include a CV or resume, and a few sentences explaining which area of the lab's research you are interested in (or if you want to explore a new area). Applicants from diverse or nontraditional academic or personal backgrounds are welcome!
 
-**Graduate Students.** If you have not yet applied, please apply to the Department of Physics or the Oden CSEM program. Other departments are definitely possible, too. If you are already at UT, please email William.
+**Graduate Students.** If you have not yet applied, please apply to the Department of Physics. Other departments are possible, too. If you are already at UT, please email William. -->
 
 <br>
 <img src="./assets/lmotm.jpg" width="100%" class="center"/>
