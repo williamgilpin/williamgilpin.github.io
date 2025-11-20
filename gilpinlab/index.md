@@ -28,7 +28,7 @@ Our curiosity-driven research group bridges fluid dynamics, statistical learning
 
 <br>
 William Gilpin, Assistant Professor of Physics\
-Department of Physics & Oden Institute for Computational Engineering and Sciences\
+<!-- Department of Physics & Oden Institute for Computational Engineering and Sciences\ -->
 The University of Texas at Austin\
 [[CV]](http://www.wgilpin.com/CV/wgilpin_CV.pdf) [[Twitter]](https://twitter.com/wgilpin0) [[Web]](http://www.wgilpin.com/?utm_source=labwebsite) [[Email]](mailto:wgilpin@fas.[dravrah%20spelled%20backwards].edu) [[GitHub]](https://github.com/williamgilpin)
 
