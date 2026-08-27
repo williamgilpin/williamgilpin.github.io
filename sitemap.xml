@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://www.wgilpin.com/</loc>
   </url>
+
   <url>
     <loc>https://www.wgilpin.com/research/nonlinear-dynamics.html</loc>
   </url>
+
   <url>
     <loc>https://www.wgilpin.com/research/machine-learning-dynamical-systems.html</loc>
   </url>
+
   <url>
     <loc>https://www.wgilpin.com/address1.html</loc>
   </url>
+
   <url>
     <loc>https://www.wgilpin.com//CV/wgilpin_CV.pdf</loc>
   </url>
-    <url>
+
+  <url>
     <loc>https://www.wgilpin.com/research/biophysics-quantitative-biology.html</loc>
   </url>
+
   <url>
     <loc>https://www.wgilpin.com/research/time-series-analysis.html</loc>
   </url>
+
+  <url>
+    <loc>https://www.wgilpin.com/research/</loc>
+  </url>
+
+  <url>
+    <loc>https://www.wgilpin.com/publications/</loc>
+  </url>
+
+
 </urlset>

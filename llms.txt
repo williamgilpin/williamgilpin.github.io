@@ -12,7 +12,9 @@
 
 ## Publications
 
-- [Selected publications](https://www.wgilpin.com/publications/selected-publications.html)
+- [Publications](https://www.wgilpin.com/publications/): Publications and preprints.
+- [BibTeX bibliography](https://www.wgilpin.com/publications/publications.bib): Machine-readable bibliography.
+
 
 ## Identity
 
