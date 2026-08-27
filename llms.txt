@@ -1,0 +1,21 @@
+# William Gilpin
+
+> William Gilpin is a physicist studying nonlinear dynamics, chaos,
+> machine learning, fluid dynamics, and biological systems.
+
+## Research
+
+- [Nonlinear dynamics and chaos](https://www.wgilpin.com/research/nonlinear-dynamics.html)
+- [Machine learning for dynamical systems](https://www.wgilpin.com/research/machine-learning-dynamical-systems.html)
+- [Time-series analysis](https://www.wgilpin.com/research/time-series-analysis.html)
+
+## Publications
+
+- [Selected publications](https://www.wgilpin.com/publications/selected-publications.html)
+
+## Identity
+
+- [ORCID](https://orcid.org/my-orcid?orcid=0000-0001-8666-6951)
+- [Google Scholar](https://scholar.google.com/citations?user=5iKFtBAAAAAJ&hl=en)
+- [UT Austin Physics](https://physics.utexas.edu/directory/william-gilpin)
+- [Gilpin Lab](https://www.wgilpin.com/gilpinlab/)

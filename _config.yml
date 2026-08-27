@@ -1,13 +1,14 @@
 theme: minima
-name: The Gilpin Lab
-title: The Gilpin Lab
-url: http://gilpinlab.github.io
+name: William Gilpin
+title: William Gilpin
+description: Research in nonlinear dynamics, machine learning, fluid dynamics, and systems biology
+url: https://www.wgilpin.com
+baseurl: ""
+lang: en-US
 languageCode: "en-us"
-
 
 minima:
   skin: dark
-
 
 defaults:
   -
