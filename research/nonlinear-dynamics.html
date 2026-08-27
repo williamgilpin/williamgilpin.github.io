@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nonlinear Dynamics and Chaos | William Gilpin</title>
+  <meta name="description" content="William Gilpin's research on nonlinear dynamics and chaos, including attractor reconstruction, predictability, recurrence analysis, and data-driven modeling of chaotic systems.">
+  <meta name="author" content="William Gilpin">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.wgilpin.com/research/nonlinear-dynamics.html">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../stylesheets/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nonlinear Dynamics and Chaos | William Gilpin">
+  <meta property="og:description" content="Research on nonlinear dynamics and chaos, including attractor reconstruction, forecasting, recurrence, and data-driven modeling.">
+  <meta property="og:url" content="https://www.wgilpin.com/research/nonlinear-dynamics.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Nonlinear Dynamics and Chaos",
+    "url": "https://www.wgilpin.com/research/nonlinear-dynamics.html",
+    "description": "William Gilpin's research on nonlinear dynamics and chaos, including attractor reconstruction, predictability, recurrence analysis, and data-driven modeling of chaotic systems.",
+    "dateModified": "2026-08-27",
+    "author": {
+      "@type": "Person",
+      "@id": "https://www.wgilpin.com/#william-gilpin",
+      "name": "William Gilpin",
+      "url": "https://www.wgilpin.com/",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "The University of Texas at Austin"
+      }
+    },
+    "about": [
+      {"@type": "Thing", "name": "Nonlinear dynamics"},
+      {"@type": "Thing", "name": "Chaos theory"},
+      {"@type": "Thing", "name": "Attractor reconstruction"},
+      {"@type": "Thing", "name": "Dynamical systems"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>William Gilpin</h1>
+      <p>Assistant Professor of Physics, UT Austin</p>
+      <p><a href="../">Home</a></p>
+    </header>
+
+    <section>
+      <h1>Nonlinear dynamics and chaos</h1>
+
+      <p>William Gilpin studies nonlinear dynamical systems using methods from statistical physics, data analysis, and machine learning. A recurring problem in this work is how to infer the geometry, predictability, and driving structure of a dynamical system from incomplete or noisy observations. Chaotic systems provide a useful setting for these questions because their trajectories are difficult to predict point by point while retaining reproducible geometric and statistical structure.</p>
+
+      <h2>Reconstructing dynamical structure from observations</h2>
+
+      <p>Measurements of a physical system rarely expose all of its state variables. Classical state-space reconstruction addresses this problem by using delayed observations of a measured signal to recover information about the underlying attractor. Gilpin's 2020 work on <a href="https://proceedings.neurips.cc/paper/2020/hash/021bbc7ee20b71134d53e20206bd6feb-Abstract.html">deep reconstruction of strange attractors</a> combined delay-coordinate ideas with an autoencoder whose latent representation is constrained by a false-nearest-neighbor criterion. The method was evaluated on synthetic chaotic systems and on empirical time series including electrocardiograms, neural activity, household electricity use, and geyser eruptions.</p>
+
+      <p>This line of work treats nonlinear dynamics as an inverse problem: observations are projections of an underlying state space, and analysis attempts to recover invariant or predictive structure without direct access to the full state. The same perspective appears in later work on generative learning, recurrence analysis, and forecasting.</p>
+
+      <h2>Predictability and forecasting of chaotic systems</h2>
+
+      <p>Chaos is often associated with a finite horizon for accurate trajectory prediction because nearby initial conditions separate exponentially. Statistical learning methods raise a related question: how does practical forecast accuracy depend on the structure of the underlying dynamical system, the amount of training data, and the inductive biases of the forecasting model?</p>
+
+      <p>In <a href="https://openreview.net/forum?id=enYjtbjYJrf">Chaos as an interpretable benchmark for forecasting and data-driven modelling</a> (NeurIPS 2021), Gilpin assembled a database of more than one hundred known chaotic systems to support controlled comparisons between forecasting methods and dynamical invariants. A subsequent study, <a href="https://doi.org/10.1103/PhysRevResearch.5.043252">Model scale versus domain knowledge in statistical forecasting of chaotic systems</a> (Physical Review Research, 2023), compared 24 forecasting methods across 135 low-dimensional chaotic systems. The study found different regimes for large domain-agnostic models and physics-informed or dynamics-specific methods: large models performed well in data-rich long-horizon settings, while stronger dynamical inductive biases remained useful when data were limited.</p>
+
+      <p>More recent work extends this comparison to pretrained forecasting models. <a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/ea4d65c59073e8faf79222654d25fbe2-Abstract-Conference.html">Zero-shot forecasting of chaotic systems</a> (ICLR 2025) evaluated foundation models on 135 chaotic systems without system-specific retraining. The analysis separated short-term trajectory accuracy from the preservation of long-term attractor geometry and statistics, which can remain meaningful after pointwise predictions diverge.</p>
+
+      <h2>Recurrences and hidden drivers</h2>
+
+      <p>Recurrence is a basic property of bounded dynamical systems: trajectories return near previously visited regions of state space. In <a href="https://doi.org/10.1103/PhysRevX.15.011005">Recurrences Reveal Shared Causal Drivers of Complex Time Series</a> (Physical Review X, 2025), Gilpin used simultaneous recurrences across multiple response signals to reconstruct an unobserved common driver. The method combines skew-product dynamical systems with recurrence graphs and topological data analysis. Its aim is not only to determine whether variables are causally related, but to infer a time-resolved latent signal that drives several observed systems.</p>
+
+      <p>The recurrence construction was tested on synthetic systems and experimental data from several domains, including genomics, physiology, ecology, and fluid dynamics. The work links reconstruction quality to information transfer and to gradual recovery of the driver's attractor from recurrence structure.</p>
+
+      <h2>Nonlinear dynamics and statistical learning</h2>
+
+      <p>The <a href="https://doi.org/10.1038/s42254-024-00688-2">Generative learning for nonlinear dynamics</a> perspective (Nature Reviews Physics, 2024) develops a connection between classical problems in nonlinear dynamics and modern statistical learning. In this view, attractor reconstruction is related to latent-variable modeling, while the search for compact dynamical descriptions is related to interpretability and generative modeling. The comparison emphasizes that many questions now studied with neural networks have close analogues in the older literature on state-space reconstruction, information theory, transfer operators, and invariant sets.</p>
+
+      <h2>Selected papers</h2>
+      <ul>
+        <li>W. Gilpin, <a href="https://doi.org/10.1103/PhysRevX.15.011005">Recurrences Reveal Shared Causal Drivers of Complex Time Series</a>, <em>Physical Review X</em> 15, 011005 (2025).</li>
+        <li>W. Gilpin, <a href="https://doi.org/10.1038/s42254-024-00688-2">Generative learning for nonlinear dynamics</a>, <em>Nature Reviews Physics</em> 6, 194-206 (2024).</li>
+        <li>W. Gilpin, <a href="https://doi.org/10.1103/PhysRevResearch.5.043252">Model scale versus domain knowledge in statistical forecasting of chaotic systems</a>, <em>Physical Review Research</em> 5, 043252 (2023).</li>
+        <li>W. Gilpin, <a href="https://openreview.net/forum?id=enYjtbjYJrf">Chaos as an interpretable benchmark for forecasting and data-driven modelling</a>, NeurIPS Datasets and Benchmarks (2021).</li>
+        <li>W. Gilpin, <a href="https://proceedings.neurips.cc/paper/2020/hash/021bbc7ee20b71134d53e20206bd6feb-Abstract.html">Deep reconstruction of strange attractors from time series</a>, NeurIPS (2020).</li>
+      </ul>
+
+      <h3>Related research</h3>
+      <ul>
+        <li><a href="machine-learning-dynamical-systems.html">Machine learning for dynamical systems</a></li>
+        <li><a href="time-series-analysis.html">Time-series analysis</a></li>
+      </ul>
+
+      <p><small>Last updated August 2026.</small></p>
+    </section>
+  </div>
+</body>
+</html>

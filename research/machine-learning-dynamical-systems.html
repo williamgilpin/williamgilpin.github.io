@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Machine Learning for Dynamical Systems | William Gilpin</title>
+  <meta name="description" content="William Gilpin's research on machine learning for dynamical systems, including learned representations, forecasting, foundation models, in-context learning, and scientific machine learning.">
+  <meta name="author" content="William Gilpin">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.wgilpin.com/research/machine-learning-dynamical-systems.html">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../stylesheets/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Machine Learning for Dynamical Systems | William Gilpin">
+  <meta property="og:description" content="Research on learned representations, forecasting, foundation models, in-context learning, and scientific machine learning for dynamical systems.">
+  <meta property="og:url" content="https://www.wgilpin.com/research/machine-learning-dynamical-systems.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Machine Learning for Dynamical Systems",
+    "url": "https://www.wgilpin.com/research/machine-learning-dynamical-systems.html",
+    "description": "William Gilpin's research on machine learning for dynamical systems, including learned representations, forecasting, foundation models, in-context learning, and scientific machine learning.",
+    "dateModified": "2026-08-27",
+    "author": {
+      "@type": "Person",
+      "@id": "https://www.wgilpin.com/#william-gilpin",
+      "name": "William Gilpin",
+      "url": "https://www.wgilpin.com/",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "The University of Texas at Austin"
+      }
+    },
+    "about": [
+      {"@type": "Thing", "name": "Scientific machine learning"},
+      {"@type": "Thing", "name": "Dynamical systems"},
+      {"@type": "Thing", "name": "Time-series foundation models"},
+      {"@type": "Thing", "name": "In-context learning"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>William Gilpin</h1>
+      <p>Assistant Professor of Physics, UT Austin</p>
+      <p><a href="../">Home</a></p>
+    </header>
+
+    <section>
+      <h1>Machine learning for dynamical systems</h1>
+
+      <p>William Gilpin studies how machine-learning models represent, forecast, and infer nonlinear dynamical systems. The work uses dynamical systems as both scientific targets and controlled test cases for machine learning. Because chaotic and multiscale systems have known geometric and statistical properties, they make it possible to distinguish short-term predictive accuracy from recovery of longer-term structure.</p>
+
+      <h2>Learning representations of dynamics</h2>
+
+      <p>An early direction of this work examined the relationship between explicit dynamical rules and neural-network representations. In <a href="https://doi.org/10.1103/PhysRevE.100.032402">Cellular automata as convolutional neural networks</a> (Physical Review E, 2019), Gilpin showed that cellular automata can be represented by convolutional neural networks and studied how networks trained on different rule sets organize their internal representations. The analysis connects the complexity of a dynamical rule to the structure learned by a neural network.</p>
+
+      <p>In <a href="https://proceedings.neurips.cc/paper/2020/hash/021bbc7ee20b71134d53e20206bd6feb-Abstract.html">Deep reconstruction of strange attractors from time series</a> (NeurIPS 2020), machine learning was used for a different purpose: reconstructing latent state-space geometry from partial measurements. The model combines delay coordinates with an autoencoder and a dynamical regularization criterion, placing modern representation learning in direct contact with classical attractor reconstruction.</p>
+
+      <h2>Forecasting, model scale, and domain knowledge</h2>
+
+      <p>A central question in scientific machine learning is when a general-purpose model can replace or complement a model built around known physical structure. Gilpin's 2021 chaos benchmark provided a standardized collection of known chaotic systems for comparing forecasting methods. <a href="https://doi.org/10.1103/PhysRevResearch.5.043252">Model scale versus domain knowledge in statistical forecasting of chaotic systems</a> (2023) expanded this comparison to 24 forecasting approaches on 135 systems. The results separate a data-rich regime, in which larger domain-agnostic models can perform strongly, from data-limited settings in which dynamical inductive biases remain useful.</p>
+
+      <p>The 2024 perspective <a href="https://doi.org/10.1038/s42254-024-00688-2">Generative learning for nonlinear dynamics</a> places these results in a broader framework. It compares latent-variable and generative methods with classical ideas from attractor reconstruction, information theory, and reduced dynamical descriptions.</p>
+
+      <h2>Pretrained models and zero-shot forecasting</h2>
+
+      <p>Recent work examines foundation-model ideas in a setting where the underlying objects are trajectories rather than text or images. <a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/ea4d65c59073e8faf79222654d25fbe2-Abstract-Conference.html">Zero-shot forecasting of chaotic systems</a> (ICLR 2025) tested pretrained time-series models on 135 chaotic systems without task-specific retraining. The study found that zero-shot models can be competitive with custom-trained methods in some settings, particularly when training data are limited, and that long-term geometric or statistical properties can remain informative after point forecasts lose accuracy.</p>
+
+      <p><a href="https://iclr.cc/virtual/2026/poster/10010755">Panda: A pretrained forecast model for chaotic dynamics</a> (ICLR 2026), by Jeffrey Lai, Anthony Bao, and William Gilpin, takes a dynamics-specific pretraining approach. Panda is trained on a synthetic collection of approximately 20,000 chaotic systems generated by an evolutionary procedure. The model is designed to forecast previously unseen systems without retraining and is evaluated on both simulated and experimental dynamics.</p>
+
+      <h2>What foundation models learn</h2>
+
+      <p>A complementary direction asks whether good forecasts imply that a model has learned the underlying dynamics. <a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/5fbdcd4d2190682b913c6b39b58e95f0-Abstract-Conference.html">Context parroting: A simple but tough-to-beat baseline for foundation models in scientific machine learning</a> (ICLR 2026), by Yuanzhao Zhang and William Gilpin, shows that several time-series foundation models can obtain strong predictions using a strategy closely related to copying recurrent patterns from the input context. The study uses a direct context-parroting baseline to identify when forecast accuracy can be explained without inferring a detailed physical model.</p>
+
+      <p><a href="https://arxiv.org/abs/2602.01605">Universal redundancies in time series foundation models</a> (2026), by Anthony Bao, Hasith Vattikuti, Jeffrey Lai, and William Gilpin, studies intermediate representations in several transformer-based time-series foundation models. Layer and attention-head ablations reveal common redundancies and identify components associated with behaviors such as motif copying and seasonality bias.</p>
+
+      <p><a href="https://arxiv.org/abs/2602.18679">Transformers for dynamical systems learn transfer operators in-context</a> (2026), by Anthony Bao, Jeffrey Lai, and William Gilpin, examines in-context learning in a deliberately small transformer. The analysis finds a forecasting mechanism based on delay embedding and transfer-operator-like propagation of long-lived structures on a reconstructed state space. This provides a dynamical-systems interpretation of how an attention model can adapt to an unseen system without updating its parameters.</p>
+
+      <h2>Selected papers</h2>
+      <ul>
+        <li>A. Bao, J. Lai, W. Gilpin, <a href="https://arxiv.org/abs/2602.18679">Transformers for dynamical systems learn transfer operators in-context</a> (2026).</li>
+        <li>A. Bao, H. Vattikuti, J. Lai, W. Gilpin, <a href="https://arxiv.org/abs/2602.01605">Universal redundancies in time series foundation models</a>, ICML (2026).</li>
+        <li>J. Lai, A. Bao, W. Gilpin, <a href="https://iclr.cc/virtual/2026/poster/10010755">Panda: A pretrained forecast model for chaotic dynamics</a>, ICLR (2026).</li>
+        <li>Y. Zhang, W. Gilpin, <a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/5fbdcd4d2190682b913c6b39b58e95f0-Abstract-Conference.html">Context parroting: A simple but tough-to-beat baseline for foundation models in scientific machine learning</a>, ICLR (2026).</li>
+        <li>Y. Zhang, W. Gilpin, <a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/ea4d65c59073e8faf79222654d25fbe2-Abstract-Conference.html">Zero-shot forecasting of chaotic systems</a>, ICLR (2025).</li>
+        <li>W. Gilpin, <a href="https://doi.org/10.1103/PhysRevResearch.5.043252">Model scale versus domain knowledge in statistical forecasting of chaotic systems</a>, <em>Physical Review Research</em> (2023).</li>
+        <li>W. Gilpin, <a href="https://doi.org/10.1103/PhysRevE.100.032402">Cellular automata as convolutional neural networks</a>, <em>Physical Review E</em> (2019).</li>
+      </ul>
+
+      <h3>Related research</h3>
+      <ul>
+        <li><a href="nonlinear-dynamics.html">Nonlinear dynamics and chaos</a></li>
+        <li><a href="time-series-analysis.html">Time-series analysis</a></li>
+      </ul>
+
+      <p><small>Last updated August 2026.</small></p>
+    </section>
+  </div>
+</body>
+</html>
