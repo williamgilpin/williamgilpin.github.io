@@ -8,6 +8,7 @@
 - [Nonlinear dynamics and chaos](https://www.wgilpin.com/research/nonlinear-dynamics.html)
 - [Machine learning for dynamical systems](https://www.wgilpin.com/research/machine-learning-dynamical-systems.html)
 - [Time-series analysis](https://www.wgilpin.com/research/time-series-analysis.html)
+- [Biophysics and quantitative biology](https://www.wgilpin.com/research/biophysics-quantitative-biology.html)
 
 ## Publications
 
